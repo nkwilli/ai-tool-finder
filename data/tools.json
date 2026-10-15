@@ -31,7 +31,14 @@
   "pricing_verified": "2026-10-14",
   "last_checked": "2026-10-15",
   "status": "ok",
-  "fail_count": 0
+  "fail_count": 0,
+  "keywords": [
+   "chatbot",
+   "assistant",
+   "email",
+   "brainstorm",
+   "questions"
+  ]
  },
  {
   "slug": "claude",
@@ -65,7 +72,14 @@
   "pricing_verified": "2026-10-14",
   "last_checked": "2026-10-15",
   "status": "ok",
-  "fail_count": 0
+  "fail_count": 0,
+  "keywords": [
+   "chatbot",
+   "assistant",
+   "email",
+   "documents",
+   "brainstorm"
+  ]
  },
  {
   "slug": "google-gemini",
@@ -98,7 +112,13 @@
   "pricing_verified": "2026-10-14",
   "last_checked": "2026-10-15",
   "status": "ok",
-  "fail_count": 0
+  "fail_count": 0,
+  "keywords": [
+   "chatbot",
+   "assistant",
+   "gmail",
+   "google docs"
+  ]
  },
  {
   "slug": "microsoft-copilot-microsoft-365",
@@ -129,7 +149,16 @@
   "pricing_verified": "2026-10-14",
   "last_checked": "2026-10-15",
   "status": "ok",
-  "fail_count": 0
+  "fail_count": 0,
+  "keywords": [
+   "word",
+   "excel",
+   "outlook",
+   "powerpoint",
+   "office",
+   "spreadsheet",
+   "email"
+  ]
  },
  {
   "slug": "perplexity",
@@ -159,7 +188,13 @@
   "pricing_verified": null,
   "last_checked": "2026-10-15",
   "status": "ok",
-  "fail_count": 0
+  "fail_count": 0,
+  "keywords": [
+   "search",
+   "answers",
+   "sources",
+   "citations"
+  ]
  },
  {
   "slug": "grok",
@@ -189,7 +224,12 @@
   "pricing_verified": null,
   "last_checked": "2026-10-15",
   "status": "ok",
-  "fail_count": 0
+  "fail_count": 0,
+  "keywords": [
+   "chatbot",
+   "assistant",
+   "search"
+  ]
  },
  {
   "slug": "notebooklm",
@@ -220,7 +260,14 @@
   "pricing_verified": null,
   "last_checked": "2026-10-15",
   "status": "ok",
-  "fail_count": 0
+  "fail_count": 0,
+  "keywords": [
+   "notes",
+   "study",
+   "sources",
+   "audio overview",
+   "documents"
+  ]
  },
  {
   "slug": "grammarly",
@@ -250,7 +297,13 @@
   "pricing_verified": "2026-10-14",
   "last_checked": "2026-10-15",
   "status": "ok",
-  "fail_count": 0
+  "fail_count": 0,
+  "keywords": [
+   "grammar",
+   "spelling",
+   "proofread",
+   "email"
+  ]
  },
  {
   "slug": "canva",
@@ -279,7 +332,14 @@
   "pricing_verified": null,
   "last_checked": "2026-10-15",
   "status": "ok",
-  "fail_count": 0
+  "fail_count": 0,
+  "keywords": [
+   "graphics",
+   "slides",
+   "social media",
+   "flyers",
+   "templates"
+  ]
  },
  {
   "slug": "notion",
@@ -309,7 +369,14 @@
   "pricing_verified": "2026-10-14",
   "last_checked": "2026-10-15",
   "status": "ok",
-  "fail_count": 0
+  "fail_count": 0,
+  "keywords": [
+   "notes",
+   "docs",
+   "wiki",
+   "projects",
+   "tasks"
+  ]
  },
  {
   "slug": "otter-ai",
@@ -338,7 +405,13 @@
   "pricing_verified": "2026-10-14",
   "last_checked": "2026-10-15",
   "status": "ok",
-  "fail_count": 0
+  "fail_count": 0,
+  "keywords": [
+   "meeting notes",
+   "transcription",
+   "zoom",
+   "teams"
+  ]
  },
  {
   "slug": "fireflies-ai",
@@ -365,7 +438,12 @@
   "pricing_verified": "2026-10-14",
   "last_checked": "2026-10-15",
   "status": "ok",
-  "fail_count": 0
+  "fail_count": 0,
+  "keywords": [
+   "meeting notes",
+   "transcription",
+   "calls"
+  ]
  },
  {
   "slug": "fathom",
@@ -392,7 +470,12 @@
   "pricing_verified": "2026-10-14",
   "last_checked": "2026-10-15",
   "status": "ok",
-  "fail_count": 0
+  "fail_count": 0,
+  "keywords": [
+   "meeting notes",
+   "call recorder",
+   "zoom"
+  ]
  },
  {
   "slug": "zapier",
@@ -418,7 +501,13 @@
   "pricing_verified": "2026-10-14",
   "last_checked": "2026-10-15",
   "status": "ok",
-  "fail_count": 0
+  "fail_count": 0,
+  "keywords": [
+   "workflow",
+   "integrations",
+   "no-code",
+   "agents"
+  ]
  },
  {
   "slug": "make",
@@ -444,7 +533,13 @@
   "pricing_verified": null,
   "last_checked": "2026-10-15",
   "status": "ok",
-  "fail_count": 0
+  "fail_count": 0,
+  "keywords": [
+   "workflow",
+   "integrations",
+   "no-code",
+   "agents"
+  ]
  },
  {
   "slug": "n8n",
@@ -469,7 +564,13 @@
   "pricing_verified": "2026-10-14",
   "last_checked": "2026-10-15",
   "status": "ok",
-  "fail_count": 0
+  "fail_count": 0,
+  "keywords": [
+   "workflow",
+   "self-hosted",
+   "agents",
+   "integrations"
+  ]
  },
  {
   "slug": "descript",
@@ -499,7 +600,13 @@
   "pricing_verified": "2026-10-14",
   "last_checked": "2026-10-15",
   "status": "ok",
-  "fail_count": 0
+  "fail_count": 0,
+  "keywords": [
+   "podcast",
+   "transcript",
+   "video editing",
+   "audio editing"
+  ]
  },
  {
   "slug": "elevenlabs",
@@ -527,7 +634,13 @@
   "pricing_verified": "2026-10-14",
   "last_checked": "2026-10-15",
   "status": "ok",
-  "fail_count": 0
+  "fail_count": 0,
+  "keywords": [
+   "text to speech",
+   "voiceover",
+   "voice cloning",
+   "narration"
+  ]
  },
  {
   "slug": "midjourney",
@@ -554,7 +667,12 @@
   "pricing_verified": null,
   "last_checked": "2026-10-15",
   "status": "ok",
-  "fail_count": 0
+  "fail_count": 0,
+  "keywords": [
+   "art",
+   "pictures",
+   "illustration"
+  ]
  },
  {
   "slug": "gamma",
@@ -583,7 +701,13 @@
   "pricing_verified": null,
   "last_checked": "2026-10-15",
   "status": "ok",
-  "fail_count": 0
+  "fail_count": 0,
+  "keywords": [
+   "slides",
+   "slideshow",
+   "deck",
+   "presentation"
+  ]
  },
  {
   "slug": "github-copilot",
@@ -607,7 +731,12 @@
   "pricing_verified": "2026-10-14",
   "last_checked": "2026-10-15",
   "status": "ok",
-  "fail_count": 0
+  "fail_count": 0,
+  "keywords": [
+   "programming",
+   "developer",
+   "autocomplete"
+  ]
  },
  {
   "slug": "cursor",
@@ -631,7 +760,12 @@
   "pricing_verified": null,
   "last_checked": "2026-10-15",
   "status": "ok",
-  "fail_count": 0
+  "fail_count": 0,
+  "keywords": [
+   "programming",
+   "developer",
+   "code editor"
+  ]
  },
  {
   "slug": "quillbot",
@@ -658,7 +792,13 @@
   "pricing_verified": null,
   "last_checked": "2026-10-15",
   "status": "ok",
-  "fail_count": 0
+  "fail_count": 0,
+  "keywords": [
+   "paraphrase",
+   "rewrite",
+   "grammar",
+   "citations"
+  ]
  },
  {
   "slug": "deepl",
@@ -687,7 +827,11 @@
   "pricing_verified": "2026-10-14",
   "last_checked": "2026-10-15",
   "status": "ok",
-  "fail_count": 0
+  "fail_count": 0,
+  "keywords": [
+   "languages",
+   "translate documents"
+  ]
  },
  {
   "slug": "khanmigo",
@@ -713,7 +857,14 @@
   "pricing_verified": "2026-10-14",
   "last_checked": "2026-10-15",
   "status": "ok",
-  "fail_count": 0
+  "fail_count": 0,
+  "keywords": [
+   "tutor",
+   "homework",
+   "students",
+   "parents",
+   "math"
+  ]
  },
  {
   "slug": "magicschool",
@@ -739,7 +890,13 @@
   "pricing_verified": "2026-10-14",
   "last_checked": "2026-10-15",
   "status": "ok",
-  "fail_count": 0
+  "fail_count": 0,
+  "keywords": [
+   "lesson plans",
+   "rubrics",
+   "worksheets",
+   "classroom"
+  ]
  },
  {
   "slug": "jasper",
@@ -764,7 +921,13 @@
   "pricing_verified": "2026-10-14",
   "last_checked": "2026-10-15",
   "status": "ok",
-  "fail_count": 0
+  "fail_count": 0,
+  "keywords": [
+   "copywriting",
+   "brand voice",
+   "blog",
+   "ads"
+  ]
  },
  {
   "slug": "hubspot-breeze-ai",
@@ -791,7 +954,13 @@
   "pricing_verified": "2026-10-14",
   "last_checked": "2026-10-15",
   "status": "ok",
-  "fail_count": 0
+  "fail_count": 0,
+  "keywords": [
+   "crm",
+   "leads",
+   "customer support",
+   "email marketing"
+  ]
  },
  {
   "slug": "wispr-flow",
@@ -820,7 +989,12 @@
   "pricing_verified": "2026-10-14",
   "last_checked": "2026-10-15",
   "status": "ok",
-  "fail_count": 0
+  "fail_count": 0,
+  "keywords": [
+   "speech to text",
+   "dictate",
+   "voice typing"
+  ]
  },
  {
   "slug": "reclaim-ai",
@@ -849,7 +1023,13 @@
   "pricing_verified": "2026-10-14",
   "last_checked": "2026-10-15",
   "status": "ok",
-  "fail_count": 0
+  "fail_count": 0,
+  "keywords": [
+   "calendar",
+   "focus time",
+   "meetings",
+   "habits"
+  ]
  },
  {
   "slug": "motion",
@@ -875,7 +1055,12 @@
   "pricing_verified": "2026-10-14",
   "last_checked": "2026-10-15",
   "status": "ok",
-  "fail_count": 0
+  "fail_count": 0,
+  "keywords": [
+   "calendar",
+   "tasks",
+   "project management"
+  ]
  },
  {
   "slug": "heygen",
@@ -901,7 +1086,12 @@
   "pricing_verified": "2026-10-14",
   "last_checked": "2026-10-15",
   "status": "ok",
-  "fail_count": 0
+  "fail_count": 0,
+  "keywords": [
+   "avatar",
+   "training videos",
+   "spokesperson"
+  ]
  },
  {
   "slug": "synthesia",
@@ -927,7 +1117,12 @@
   "pricing_verified": "2026-10-14",
   "last_checked": "2026-10-15",
   "status": "ok",
-  "fail_count": 0
+  "fail_count": 0,
+  "keywords": [
+   "avatar",
+   "training videos",
+   "explainer"
+  ]
  },
  {
   "slug": "runway",
@@ -954,7 +1149,12 @@
   "pricing_verified": "2026-10-14",
   "last_checked": "2026-10-15",
   "status": "ok",
-  "fail_count": 0
+  "fail_count": 0,
+  "keywords": [
+   "video effects",
+   "text to video",
+   "film"
+  ]
  },
  {
   "slug": "suno",
@@ -979,7 +1179,12 @@
   "pricing_verified": "2026-10-14",
   "last_checked": "2026-10-15",
   "status": "ok",
-  "fail_count": 0
+  "fail_count": 0,
+  "keywords": [
+   "songs",
+   "music",
+   "jingle"
+  ]
  },
  {
   "slug": "elicit",
@@ -1005,7 +1210,12 @@
   "pricing_verified": "2026-10-14",
   "last_checked": "2026-10-15",
   "status": "ok",
-  "fail_count": 0
+  "fail_count": 0,
+  "keywords": [
+   "papers",
+   "literature review",
+   "academic"
+  ]
  },
  {
   "slug": "consensus",
@@ -1031,7 +1241,13 @@
   "pricing_verified": null,
   "last_checked": "2026-10-15",
   "status": "ok",
-  "fail_count": 0
+  "fail_count": 0,
+  "keywords": [
+   "papers",
+   "studies",
+   "academic",
+   "evidence"
+  ]
  },
  {
   "slug": "lovable",
@@ -1058,6 +1274,12 @@
   "pricing_verified": "2026-10-14",
   "last_checked": "2026-10-15",
   "status": "ok",
-  "fail_count": 0
+  "fail_count": 0,
+  "keywords": [
+   "website",
+   "app",
+   "no-code",
+   "prototype"
+  ]
  }
 ]

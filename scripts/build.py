@@ -42,7 +42,7 @@ def build():
     if OUT.exists(): shutil.rmtree(OUT)
     shutil.copytree(R/"static", OUT/"assets")
     (OUT/"data").mkdir(parents=True)
-    idx = [{k: t[k] for k in ("slug","name","category","fields","tasks","use","pricing","free_tier","pricing_summary","data_note","status","last_checked")} for t in TOOLS]
+    idx = [{k: t[k] for k in ("slug","name","category","keywords","fields","tasks","use","pricing","free_tier","pricing_summary","data_note","status","last_checked")} for t in TOOLS]
     (OUT/"data/tools.json").write_text(json.dumps(idx, separators=(",",":")))
     (OUT/"data/usecases.json").write_text(json.dumps(UC, separators=(",",":")))
     (OUT/"data/meta.json").write_text(json.dumps({"fields": F, "tasks": TASKS, "price": PRICE}))
