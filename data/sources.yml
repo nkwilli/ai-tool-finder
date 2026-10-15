@@ -1,0 +1,11 @@
+# News sources allowlist (headlines + links only). EMPTY on purpose.
+# TODO: before adding any feed, read its RSS/terms page and fill in every field.
+# Leave out any source whose terms forbid reuse or commercial use.
+# Example shape (not active):
+# - name: Example Vendor Blog
+#   feed_url: https://example.com/feed.xml
+#   terms_url: https://example.com/terms
+#   checked_on: YYYY-MM-DD
+#   allowed: "headline, date, link"   # what the terms permit
+#   approved: false
+sources: []

@@ -1,0 +1,1063 @@
+[
+ {
+  "slug": "chatgpt",
+  "name": "ChatGPT",
+  "url": "https://chatgpt.com",
+  "category": "Assistant / chatbot",
+  "fields": [
+   "it",
+   "education",
+   "healthcare-admin",
+   "small-business",
+   "sales-marketing",
+   "writing-creative"
+  ],
+  "tasks": [
+   "write",
+   "summarize",
+   "research",
+   "analyze",
+   "plan"
+  ],
+  "use": [
+   "Personal",
+   "Work"
+  ],
+  "pricing": "freemium",
+  "free_tier": "Yes",
+  "pricing_summary": "Free plan available; paid Go, Plus, Pro, Business and Enterprise plans (see site for current prices).",
+  "data_note": "Don't paste confidential, client, patient or student data on a personal account; use your organization's approved plan.",
+  "source_url": "https://openai.com/chatgpt/pricing/",
+  "pricing_verified": "2026-10-14",
+  "last_checked": "2026-10-14",
+  "status": "ok",
+  "fail_count": 0
+ },
+ {
+  "slug": "claude",
+  "name": "Claude",
+  "url": "https://claude.ai",
+  "category": "Assistant / chatbot",
+  "fields": [
+   "it",
+   "education",
+   "healthcare-admin",
+   "small-business",
+   "sales-marketing",
+   "writing-creative"
+  ],
+  "tasks": [
+   "write",
+   "summarize",
+   "research",
+   "analyze",
+   "code"
+  ],
+  "use": [
+   "Personal",
+   "Work"
+  ],
+  "pricing": "freemium",
+  "free_tier": "Yes",
+  "pricing_summary": "Free $0; Pro $20/mo billed monthly ($17/mo annual); Max from $100/mo.",
+  "data_note": "Don't paste confidential, client, patient or student data on a personal account; use your organization's approved plan.",
+  "source_url": "https://claude.com/pricing",
+  "pricing_verified": "2026-10-14",
+  "last_checked": "2026-10-14",
+  "status": "ok",
+  "fail_count": 0
+ },
+ {
+  "slug": "google-gemini",
+  "name": "Google Gemini",
+  "url": "https://gemini.google.com",
+  "category": "Assistant / chatbot",
+  "fields": [
+   "it",
+   "education",
+   "healthcare-admin",
+   "small-business",
+   "sales-marketing",
+   "writing-creative"
+  ],
+  "tasks": [
+   "write",
+   "summarize",
+   "research",
+   "plan"
+  ],
+  "use": [
+   "Personal",
+   "Work"
+  ],
+  "pricing": "freemium",
+  "free_tier": "Yes",
+  "pricing_summary": "Free plan; Google AI Plus and Pro tiers (prices: check site); Ultra $99.99/mo.",
+  "data_note": "Don't paste confidential, client, patient or student data on a personal account; use your organization's approved plan.",
+  "source_url": "https://gemini.google/subscriptions/",
+  "pricing_verified": "2026-10-14",
+  "last_checked": "2026-10-14",
+  "status": "ok",
+  "fail_count": 0
+ },
+ {
+  "slug": "microsoft-copilot-microsoft-365",
+  "name": "Microsoft Copilot (Microsoft 365)",
+  "url": "https://copilot.microsoft.com",
+  "category": "Assistant / chatbot",
+  "fields": [
+   "it",
+   "education",
+   "small-business",
+   "sales-marketing",
+   "writing-creative"
+  ],
+  "tasks": [
+   "write",
+   "summarize",
+   "plan"
+  ],
+  "use": [
+   "Personal",
+   "Work"
+  ],
+  "pricing": "check",
+  "free_tier": "check site",
+  "pricing_summary": "Microsoft 365 Personal $9.99/mo, Family $12.99/mo, Premium $19.99/mo (US). Free Copilot app: check site.",
+  "data_note": "Don't paste confidential, client, patient or student data on a personal account; use your organization's approved plan.",
+  "source_url": "https://www.microsoft.com/en-us/microsoft-copilot/for-individuals",
+  "pricing_verified": "2026-10-14",
+  "last_checked": "2026-10-14",
+  "status": "ok",
+  "fail_count": 0
+ },
+ {
+  "slug": "perplexity",
+  "name": "Perplexity",
+  "url": "https://www.perplexity.ai",
+  "category": "Search / research",
+  "fields": [
+   "it",
+   "education",
+   "small-business",
+   "sales-marketing",
+   "writing-creative"
+  ],
+  "tasks": [
+   "research",
+   "summarize"
+  ],
+  "use": [
+   "Personal",
+   "Work"
+  ],
+  "pricing": "check",
+  "free_tier": "check site",
+  "pricing_summary": "check site",
+  "data_note": "Don't paste confidential, client, patient or student data on a personal account; use your organization's approved plan.",
+  "source_url": "https://www.perplexity.ai/pro",
+  "pricing_verified": null,
+  "last_checked": "2026-10-14",
+  "status": "ok",
+  "fail_count": 0
+ },
+ {
+  "slug": "grok",
+  "name": "Grok",
+  "url": "https://grok.com",
+  "category": "Assistant / chatbot",
+  "fields": [
+   "it",
+   "small-business",
+   "sales-marketing",
+   "writing-creative"
+  ],
+  "tasks": [
+   "write",
+   "research",
+   "summarize"
+  ],
+  "use": [
+   "Personal",
+   "Work"
+  ],
+  "pricing": "check",
+  "free_tier": "check site",
+  "pricing_summary": "check site",
+  "data_note": "Don't paste confidential, client, patient or student data on a personal account; use your organization's approved plan.",
+  "source_url": "https://grok.com/plans",
+  "pricing_verified": null,
+  "last_checked": "2026-10-14",
+  "status": "ok",
+  "fail_count": 0
+ },
+ {
+  "slug": "notebooklm",
+  "name": "NotebookLM",
+  "url": "https://notebooklm.google.com",
+  "category": "Research / study",
+  "fields": [
+   "education",
+   "it",
+   "healthcare-admin",
+   "small-business",
+   "writing-creative"
+  ],
+  "tasks": [
+   "research",
+   "summarize",
+   "learn"
+  ],
+  "use": [
+   "Personal",
+   "Work"
+  ],
+  "pricing": "check",
+  "free_tier": "check site",
+  "pricing_summary": "check site",
+  "data_note": "Don't paste confidential, client, patient or student data on a personal account; use your organization's approved plan.",
+  "source_url": "https://notebooklm.google/plans",
+  "pricing_verified": null,
+  "last_checked": "2026-10-14",
+  "status": "ok",
+  "fail_count": 0
+ },
+ {
+  "slug": "grammarly",
+  "name": "Grammarly",
+  "url": "https://www.grammarly.com",
+  "category": "Writing assistant",
+  "fields": [
+   "education",
+   "small-business",
+   "sales-marketing",
+   "writing-creative",
+   "healthcare-admin"
+  ],
+  "tasks": [
+   "write",
+   "edit"
+  ],
+  "use": [
+   "Personal",
+   "Work"
+  ],
+  "pricing": "freemium",
+  "free_tier": "Yes",
+  "pricing_summary": "Free $0; Pro $12 USD (see site for billing terms); Enterprise via sales.",
+  "data_note": "Don't paste confidential, client, patient or student data on a personal account; use your organization's approved plan.",
+  "source_url": "https://www.grammarly.com/plans",
+  "pricing_verified": "2026-10-14",
+  "last_checked": "2026-10-14",
+  "status": "ok",
+  "fail_count": 0
+ },
+ {
+  "slug": "canva",
+  "name": "Canva",
+  "url": "https://www.canva.com",
+  "category": "Design",
+  "fields": [
+   "education",
+   "small-business",
+   "sales-marketing",
+   "writing-creative"
+  ],
+  "tasks": [
+   "design",
+   "present"
+  ],
+  "use": [
+   "Personal",
+   "Work"
+  ],
+  "pricing": "check",
+  "free_tier": "check site",
+  "pricing_summary": "check site",
+  "data_note": "Mostly low-risk content (public or creative); still avoid uploading private info.",
+  "source_url": "https://www.canva.com/pricing/",
+  "pricing_verified": null,
+  "last_checked": "2026-10-14",
+  "status": "ok",
+  "fail_count": 0
+ },
+ {
+  "slug": "notion",
+  "name": "Notion",
+  "url": "https://www.notion.com",
+  "category": "Notes / workspace",
+  "fields": [
+   "it",
+   "small-business",
+   "education",
+   "writing-creative"
+  ],
+  "tasks": [
+   "plan",
+   "write",
+   "organize"
+  ],
+  "use": [
+   "Personal",
+   "Work"
+  ],
+  "pricing": "freemium",
+  "free_tier": "Yes",
+  "pricing_summary": "Free $0; Plus $10 and Business $20 per member/month (annual billing shown).",
+  "data_note": "Don't paste confidential, client, patient or student data on a personal account; use your organization's approved plan.",
+  "source_url": "https://www.notion.com/pricing",
+  "pricing_verified": "2026-10-14",
+  "last_checked": "2026-10-14",
+  "status": "ok",
+  "fail_count": 0
+ },
+ {
+  "slug": "otter-ai",
+  "name": "Otter.ai",
+  "url": "https://otter.ai",
+  "category": "Meeting notes",
+  "fields": [
+   "it",
+   "education",
+   "small-business",
+   "sales-marketing",
+   "healthcare-admin"
+  ],
+  "tasks": [
+   "transcribe",
+   "summarize"
+  ],
+  "use": [
+   "Work"
+  ],
+  "pricing": "freemium",
+  "free_tier": "Yes",
+  "pricing_summary": "Basic: Free; Pro $16.99/user/mo monthly ($8.33 annual); Business $30/user/mo monthly ($19.99 annual).",
+  "data_note": "Records and transcribes conversations: tell participants and follow your workplace's recording/consent rules.",
+  "source_url": "https://otter.ai/pricing",
+  "pricing_verified": "2026-10-14",
+  "last_checked": "2026-10-14",
+  "status": "ok",
+  "fail_count": 0
+ },
+ {
+  "slug": "fireflies-ai",
+  "name": "Fireflies.ai",
+  "url": "https://fireflies.ai",
+  "category": "Meeting notes",
+  "fields": [
+   "it",
+   "small-business",
+   "sales-marketing"
+  ],
+  "tasks": [
+   "transcribe",
+   "summarize"
+  ],
+  "use": [
+   "Work"
+  ],
+  "pricing": "freemium",
+  "free_tier": "Yes",
+  "pricing_summary": "Free $0; Pro $10, Business $19 per seat/mo billed annually; Enterprise $39.",
+  "data_note": "Records and transcribes conversations: tell participants and follow your workplace's recording/consent rules.",
+  "source_url": "https://fireflies.ai/pricing",
+  "pricing_verified": "2026-10-14",
+  "last_checked": "2026-10-14",
+  "status": "ok",
+  "fail_count": 0
+ },
+ {
+  "slug": "fathom",
+  "name": "Fathom",
+  "url": "https://www.fathom.ai",
+  "category": "Meeting notes",
+  "fields": [
+   "it",
+   "small-business",
+   "sales-marketing"
+  ],
+  "tasks": [
+   "transcribe",
+   "summarize"
+  ],
+  "use": [
+   "Work"
+  ],
+  "pricing": "freemium",
+  "free_tier": "Yes",
+  "pricing_summary": "Free forever plan; Team $15-19 and Business $25-34 per user/mo (2-user min).",
+  "data_note": "Records and transcribes conversations: tell participants and follow your workplace's recording/consent rules.",
+  "source_url": "https://www.fathom.ai/pricing",
+  "pricing_verified": "2026-10-14",
+  "last_checked": "2026-10-14",
+  "status": "ok",
+  "fail_count": 0
+ },
+ {
+  "slug": "zapier",
+  "name": "Zapier",
+  "url": "https://zapier.com",
+  "category": "Automation / agents",
+  "fields": [
+   "it",
+   "small-business",
+   "sales-marketing"
+  ],
+  "tasks": [
+   "automate"
+  ],
+  "use": [
+   "Work"
+  ],
+  "pricing": "freemium",
+  "free_tier": "Yes",
+  "pricing_summary": "Free $0/mo (100 tasks/mo); Professional from $19.99/mo.",
+  "data_note": "Automations move data between apps; check what each connected app is allowed to share.",
+  "source_url": "https://zapier.com/pricing",
+  "pricing_verified": "2026-10-14",
+  "last_checked": "2026-10-14",
+  "status": "ok",
+  "fail_count": 0
+ },
+ {
+  "slug": "make",
+  "name": "Make",
+  "url": "https://www.make.com",
+  "category": "Automation / agents",
+  "fields": [
+   "it",
+   "small-business",
+   "sales-marketing"
+  ],
+  "tasks": [
+   "automate"
+  ],
+  "use": [
+   "Work"
+  ],
+  "pricing": "check",
+  "free_tier": "check site",
+  "pricing_summary": "check site",
+  "data_note": "Automations move data between apps; check what each connected app is allowed to share.",
+  "source_url": "https://www.make.com/en/pricing",
+  "pricing_verified": null,
+  "last_checked": "2026-10-14",
+  "status": "ok",
+  "fail_count": 0
+ },
+ {
+  "slug": "n8n",
+  "name": "n8n",
+  "url": "https://n8n.io",
+  "category": "Automation / agents",
+  "fields": [
+   "it",
+   "small-business"
+  ],
+  "tasks": [
+   "automate"
+  ],
+  "use": [
+   "Work"
+  ],
+  "pricing": "check",
+  "free_tier": "check site",
+  "pricing_summary": "Starter, Pro and Enterprise plans; free trial noted on pricing page. Prices: check site.",
+  "data_note": "Can be self-hosted, which keeps data on your own servers; confirm with IT.",
+  "source_url": "https://n8n.io/pricing/",
+  "pricing_verified": "2026-10-14",
+  "last_checked": "2026-10-14",
+  "status": "ok",
+  "fail_count": 0
+ },
+ {
+  "slug": "descript",
+  "name": "Descript",
+  "url": "https://www.descript.com",
+  "category": "Audio / video editing",
+  "fields": [
+   "sales-marketing",
+   "writing-creative",
+   "education",
+   "small-business"
+  ],
+  "tasks": [
+   "edit",
+   "transcribe",
+   "video"
+  ],
+  "use": [
+   "Personal",
+   "Work"
+  ],
+  "pricing": "freemium",
+  "free_tier": "Yes",
+  "pricing_summary": "Free $0; Hobbyist $16-24, Creator $24-35, Business $50-65 per person/mo (annual vs monthly).",
+  "data_note": "Mostly low-risk content (public or creative); still avoid uploading private info.",
+  "source_url": "https://www.descript.com/pricing",
+  "pricing_verified": "2026-10-14",
+  "last_checked": "2026-10-14",
+  "status": "ok",
+  "fail_count": 0
+ },
+ {
+  "slug": "elevenlabs",
+  "name": "ElevenLabs",
+  "url": "https://elevenlabs.io",
+  "category": "Voice / audio",
+  "fields": [
+   "sales-marketing",
+   "writing-creative",
+   "education"
+  ],
+  "tasks": [
+   "voice",
+   "audio"
+  ],
+  "use": [
+   "Personal",
+   "Work"
+  ],
+  "pricing": "freemium",
+  "free_tier": "Yes",
+  "pricing_summary": "Free $0; Starter $6, Creator $22, Pro $99, Scale $299, Business $990 per month.",
+  "data_note": "Only clone voices you have permission to use.",
+  "source_url": "https://elevenlabs.io/pricing",
+  "pricing_verified": "2026-10-14",
+  "last_checked": "2026-10-14",
+  "status": "ok",
+  "fail_count": 0
+ },
+ {
+  "slug": "midjourney",
+  "name": "Midjourney",
+  "url": "https://www.midjourney.com",
+  "category": "Image generation",
+  "fields": [
+   "sales-marketing",
+   "writing-creative"
+  ],
+  "tasks": [
+   "design",
+   "image"
+  ],
+  "use": [
+   "Personal",
+   "Work"
+  ],
+  "pricing": "check",
+  "free_tier": "check site",
+  "pricing_summary": "check site",
+  "data_note": "Mostly low-risk content (public or creative); still avoid uploading private info.",
+  "source_url": "https://docs.midjourney.com/hc/en-us/articles/27870484040333-Comparing-Midjourney-Plans",
+  "pricing_verified": null,
+  "last_checked": "2026-10-14",
+  "status": "ok",
+  "fail_count": 0
+ },
+ {
+  "slug": "gamma",
+  "name": "Gamma",
+  "url": "https://gamma.app",
+  "category": "Presentations",
+  "fields": [
+   "education",
+   "small-business",
+   "sales-marketing",
+   "it"
+  ],
+  "tasks": [
+   "present",
+   "design"
+  ],
+  "use": [
+   "Personal",
+   "Work"
+  ],
+  "pricing": "check",
+  "free_tier": "check site",
+  "pricing_summary": "check site",
+  "data_note": "Don't paste confidential, client, patient or student data on a personal account; use your organization's approved plan.",
+  "source_url": "https://gamma.app/pricing",
+  "pricing_verified": null,
+  "last_checked": "2026-10-14",
+  "status": "ok",
+  "fail_count": 0
+ },
+ {
+  "slug": "github-copilot",
+  "name": "GitHub Copilot",
+  "url": "https://github.com/features/copilot",
+  "category": "Coding assistant",
+  "fields": [
+   "it"
+  ],
+  "tasks": [
+   "code"
+  ],
+  "use": [
+   "Work"
+  ],
+  "pricing": "freemium",
+  "free_tier": "Yes",
+  "pricing_summary": "Free $0; Pro $10/mo; Pro+ $39/mo; Max $100/mo.",
+  "data_note": "Check your employer's policy before using on company code.",
+  "source_url": "https://github.com/features/copilot/plans",
+  "pricing_verified": "2026-10-14",
+  "last_checked": "2026-10-14",
+  "status": "ok",
+  "fail_count": 0
+ },
+ {
+  "slug": "cursor",
+  "name": "Cursor",
+  "url": "https://cursor.com",
+  "category": "Coding assistant",
+  "fields": [
+   "it"
+  ],
+  "tasks": [
+   "code"
+  ],
+  "use": [
+   "Work"
+  ],
+  "pricing": "check",
+  "free_tier": "check site",
+  "pricing_summary": "check site",
+  "data_note": "Check your employer's policy before using on company code.",
+  "source_url": "https://cursor.com/pricing",
+  "pricing_verified": null,
+  "last_checked": "2026-10-14",
+  "status": "ok",
+  "fail_count": 0
+ },
+ {
+  "slug": "quillbot",
+  "name": "QuillBot",
+  "url": "https://quillbot.com",
+  "category": "Writing assistant",
+  "fields": [
+   "education",
+   "writing-creative"
+  ],
+  "tasks": [
+   "write",
+   "edit"
+  ],
+  "use": [
+   "Personal",
+   "Work"
+  ],
+  "pricing": "check",
+  "free_tier": "check site",
+  "pricing_summary": "check site",
+  "data_note": "Don't paste confidential, client, patient or student data on a personal account; use your organization's approved plan.",
+  "source_url": "https://quillbot.com/upgrade",
+  "pricing_verified": null,
+  "last_checked": "2026-10-14",
+  "status": "ok",
+  "fail_count": 0
+ },
+ {
+  "slug": "deepl",
+  "name": "DeepL",
+  "url": "https://www.deepl.com",
+  "category": "Translation",
+  "fields": [
+   "education",
+   "healthcare-admin",
+   "small-business",
+   "sales-marketing",
+   "writing-creative"
+  ],
+  "tasks": [
+   "translate"
+  ],
+  "use": [
+   "Personal",
+   "Work"
+  ],
+  "pricing": "freemium",
+  "free_tier": "check site",
+  "pricing_summary": "Paid Pro from EUR 7.49/mo (single user, annual), 30-day free trial. Free translator: check site.",
+  "data_note": "Don't paste confidential, client, patient or student data on a personal account; use your organization's approved plan.",
+  "source_url": "https://www.deepl.com/en/pro",
+  "pricing_verified": "2026-10-14",
+  "last_checked": "2026-10-14",
+  "status": "ok",
+  "fail_count": 0
+ },
+ {
+  "slug": "khanmigo",
+  "name": "Khanmigo",
+  "url": "https://www.khanmigo.ai",
+  "category": "Tutoring / education",
+  "fields": [
+   "education"
+  ],
+  "tasks": [
+   "learn",
+   "teach"
+  ],
+  "use": [
+   "Personal",
+   "Work"
+  ],
+  "pricing": "freemium",
+  "free_tier": "Yes",
+  "pricing_summary": "Free for teachers; $4/month or $44/year for parents and learners.",
+  "data_note": "Designed for students; follow your school's rules on student data (e.g., FERPA).",
+  "source_url": "https://www.khanmigo.ai/pricing",
+  "pricing_verified": "2026-10-14",
+  "last_checked": "2026-10-14",
+  "status": "ok",
+  "fail_count": 0
+ },
+ {
+  "slug": "magicschool",
+  "name": "MagicSchool",
+  "url": "https://www.magicschool.ai",
+  "category": "Teacher tools",
+  "fields": [
+   "education"
+  ],
+  "tasks": [
+   "teach",
+   "write",
+   "plan"
+  ],
+  "use": [
+   "Work"
+  ],
+  "pricing": "freemium",
+  "free_tier": "Yes",
+  "pricing_summary": "Free $0 for individual teachers; Plus $8.33/user/mo annual ($12.99 monthly); school/district plans.",
+  "data_note": "Keep student-identifying data out unless your district has approved it.",
+  "source_url": "https://www.magicschool.ai/pricing",
+  "pricing_verified": "2026-10-14",
+  "last_checked": "2026-10-14",
+  "status": "ok",
+  "fail_count": 0
+ },
+ {
+  "slug": "jasper",
+  "name": "Jasper",
+  "url": "https://www.jasper.ai",
+  "category": "Marketing writing",
+  "fields": [
+   "sales-marketing",
+   "small-business"
+  ],
+  "tasks": [
+   "write"
+  ],
+  "use": [
+   "Work"
+  ],
+  "pricing": "paid",
+  "free_tier": "No",
+  "pricing_summary": "Pro $69/seat/mo monthly ($59 yearly); 7-day free trial; Business via sales.",
+  "data_note": "Don't paste confidential, client, patient or student data on a personal account; use your organization's approved plan.",
+  "source_url": "https://www.jasper.ai/pricing",
+  "pricing_verified": "2026-10-14",
+  "last_checked": "2026-10-14",
+  "status": "ok",
+  "fail_count": 0
+ },
+ {
+  "slug": "hubspot-breeze-ai",
+  "name": "HubSpot (Breeze AI)",
+  "url": "https://www.hubspot.com/products/artificial-intelligence",
+  "category": "CRM / sales",
+  "fields": [
+   "sales-marketing",
+   "small-business"
+  ],
+  "tasks": [
+   "sell",
+   "write",
+   "automate"
+  ],
+  "use": [
+   "Work"
+  ],
+  "pricing": "freemium",
+  "free_tier": "Yes",
+  "pricing_summary": "Free and premium plans across HubSpot hubs; AI feature limits by plan: check site.",
+  "data_note": "Contains customer data; set permissions carefully.",
+  "source_url": "https://www.hubspot.com/products/artificial-intelligence",
+  "pricing_verified": "2026-10-14",
+  "last_checked": "2026-10-14",
+  "status": "ok",
+  "fail_count": 0
+ },
+ {
+  "slug": "wispr-flow",
+  "name": "Wispr Flow",
+  "url": "https://wisprflow.ai",
+  "category": "Dictation",
+  "fields": [
+   "it",
+   "healthcare-admin",
+   "small-business",
+   "writing-creative"
+  ],
+  "tasks": [
+   "write",
+   "voice"
+  ],
+  "use": [
+   "Personal",
+   "Work"
+  ],
+  "pricing": "freemium",
+  "free_tier": "Yes",
+  "pricing_summary": "Free $0/mo; Pro $15/user/mo; Growth $23-33/user/mo.",
+  "data_note": "Don't paste confidential, client, patient or student data on a personal account; use your organization's approved plan.",
+  "source_url": "https://wisprflow.ai/pricing",
+  "pricing_verified": "2026-10-14",
+  "last_checked": "2026-10-14",
+  "status": "ok",
+  "fail_count": 0
+ },
+ {
+  "slug": "reclaim-ai",
+  "name": "Reclaim.ai",
+  "url": "https://reclaim.ai",
+  "category": "Calendar / scheduling",
+  "fields": [
+   "it",
+   "small-business",
+   "sales-marketing",
+   "education"
+  ],
+  "tasks": [
+   "plan",
+   "schedule"
+  ],
+  "use": [
+   "Personal",
+   "Work"
+  ],
+  "pricing": "freemium",
+  "free_tier": "Yes",
+  "pricing_summary": "Lite: free forever; Starter $10/seat/mo (yearly).",
+  "data_note": "Needs calendar access; check what your work account allows.",
+  "source_url": "https://reclaim.ai/pricing",
+  "pricing_verified": "2026-10-14",
+  "last_checked": "2026-10-14",
+  "status": "ok",
+  "fail_count": 0
+ },
+ {
+  "slug": "motion",
+  "name": "Motion",
+  "url": "https://www.usemotion.com",
+  "category": "Calendar / scheduling",
+  "fields": [
+   "it",
+   "small-business"
+  ],
+  "tasks": [
+   "plan",
+   "schedule"
+  ],
+  "use": [
+   "Work"
+  ],
+  "pricing": "paid",
+  "free_tier": "No",
+  "pricing_summary": "From $19/seat/mo; higher tier $29/seat/mo; free trial offered.",
+  "data_note": "Needs calendar access; check what your work account allows.",
+  "source_url": "https://www.usemotion.com/pricing",
+  "pricing_verified": "2026-10-14",
+  "last_checked": "2026-10-14",
+  "status": "ok",
+  "fail_count": 0
+ },
+ {
+  "slug": "heygen",
+  "name": "HeyGen",
+  "url": "https://www.heygen.com",
+  "category": "Video / avatars",
+  "fields": [
+   "sales-marketing",
+   "education",
+   "writing-creative"
+  ],
+  "tasks": [
+   "video"
+  ],
+  "use": [
+   "Work"
+  ],
+  "pricing": "freemium",
+  "free_tier": "Yes",
+  "pricing_summary": "Free $0/mo; Creator $29/mo; Pro: check site.",
+  "data_note": "Only use likenesses and voices you have permission to use.",
+  "source_url": "https://www.heygen.com/pricing",
+  "pricing_verified": "2026-10-14",
+  "last_checked": "2026-10-14",
+  "status": "ok",
+  "fail_count": 0
+ },
+ {
+  "slug": "synthesia",
+  "name": "Synthesia",
+  "url": "https://www.synthesia.io",
+  "category": "Video / avatars",
+  "fields": [
+   "education",
+   "sales-marketing",
+   "it"
+  ],
+  "tasks": [
+   "video"
+  ],
+  "use": [
+   "Work"
+  ],
+  "pricing": "freemium",
+  "free_tier": "Yes",
+  "pricing_summary": "Basic $0/mo (watermark); Starter $29/mo; Pro from $89/mo (billed monthly).",
+  "data_note": "Only use likenesses and voices you have permission to use.",
+  "source_url": "https://www.synthesia.io/pricing",
+  "pricing_verified": "2026-10-14",
+  "last_checked": "2026-10-14",
+  "status": "ok",
+  "fail_count": 0
+ },
+ {
+  "slug": "runway",
+  "name": "Runway",
+  "url": "https://runwayml.com",
+  "category": "Video generation",
+  "fields": [
+   "writing-creative",
+   "sales-marketing"
+  ],
+  "tasks": [
+   "video",
+   "image"
+  ],
+  "use": [
+   "Personal",
+   "Work"
+  ],
+  "pricing": "freemium",
+  "free_tier": "Yes",
+  "pricing_summary": "Free (125 one-time credits); Standard $12, Pro $28, Max $76 per month billed annually.",
+  "data_note": "Mostly low-risk content (public or creative); still avoid uploading private info.",
+  "source_url": "https://runwayml.com/pricing",
+  "pricing_verified": "2026-10-14",
+  "last_checked": "2026-10-14",
+  "status": "ok",
+  "fail_count": 0
+ },
+ {
+  "slug": "suno",
+  "name": "Suno",
+  "url": "https://suno.com",
+  "category": "Music generation",
+  "fields": [
+   "writing-creative",
+   "sales-marketing"
+  ],
+  "tasks": [
+   "audio"
+  ],
+  "use": [
+   "Personal"
+  ],
+  "pricing": "freemium",
+  "free_tier": "Yes",
+  "pricing_summary": "Free $0/mo (50 credits/day); Pro $8/mo, Premier $24/mo (billed yearly).",
+  "data_note": "Mostly low-risk content (public or creative); still avoid uploading private info.",
+  "source_url": "https://suno.com/pricing",
+  "pricing_verified": "2026-10-14",
+  "last_checked": "2026-10-14",
+  "status": "ok",
+  "fail_count": 0
+ },
+ {
+  "slug": "elicit",
+  "name": "Elicit",
+  "url": "https://elicit.com",
+  "category": "Research",
+  "fields": [
+   "education",
+   "healthcare-admin"
+  ],
+  "tasks": [
+   "research",
+   "summarize"
+  ],
+  "use": [
+   "Work"
+  ],
+  "pricing": "freemium",
+  "free_tier": "Yes",
+  "pricing_summary": "Basic free; Plus $11, Pro $39, Scale $89 per user/mo billed annually.",
+  "data_note": "Don't paste confidential, client, patient or student data on a personal account; use your organization's approved plan.",
+  "source_url": "https://elicit.com/pricing",
+  "pricing_verified": "2026-10-14",
+  "last_checked": "2026-10-14",
+  "status": "ok",
+  "fail_count": 0
+ },
+ {
+  "slug": "consensus",
+  "name": "Consensus",
+  "url": "https://consensus.app",
+  "category": "Research",
+  "fields": [
+   "education",
+   "healthcare-admin"
+  ],
+  "tasks": [
+   "research"
+  ],
+  "use": [
+   "Personal",
+   "Work"
+  ],
+  "pricing": "check",
+  "free_tier": "check site",
+  "pricing_summary": "check site",
+  "data_note": "Don't paste confidential, client, patient or student data on a personal account; use your organization's approved plan.",
+  "source_url": "https://consensus.app/pricing/",
+  "pricing_verified": null,
+  "last_checked": "2026-10-14",
+  "status": "ok",
+  "fail_count": 0
+ },
+ {
+  "slug": "lovable",
+  "name": "Lovable",
+  "url": "https://lovable.dev",
+  "category": "App builder",
+  "fields": [
+   "small-business",
+   "it"
+  ],
+  "tasks": [
+   "code",
+   "build"
+  ],
+  "use": [
+   "Personal",
+   "Work"
+  ],
+  "pricing": "freemium",
+  "free_tier": "Yes",
+  "pricing_summary": "Has a free plan per pricing FAQ; paid prices: check site.",
+  "data_note": "Don't put secrets or customer data into a prototype app.",
+  "source_url": "https://lovable.dev/pricing",
+  "pricing_verified": "2026-10-14",
+  "last_checked": "2026-10-14",
+  "status": "ok",
+  "fail_count": 0
+ }
+]
