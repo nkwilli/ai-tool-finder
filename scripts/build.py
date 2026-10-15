@@ -4,6 +4,9 @@ R = pathlib.Path(__file__).resolve().parent.parent
 C = json.loads((R/"config.json").read_text())
 TOOLS = json.loads((R/"data/tools.json").read_text())
 UC = json.loads((R/"data/usecases.json").read_text())
+import subprocess, time
+try: V = subprocess.run(["git","rev-parse","--short","HEAD"],cwd=R,capture_output=True,text=True).stdout.strip() + "-" + str(int(time.time()))
+except Exception: V = str(int(time.time()))
 OUT = R/"site"; NAME = C["site_name"]; BASE = C["base_url"].rstrip("/"); F = C["fields"]
 e = html.escape
 TASKS = sorted({t for x in TOOLS for t in x["tasks"]})
@@ -19,7 +22,7 @@ def page(path, title, desc, body, scripts=""):
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{e(title)}</title><meta name="description" content="{e(desc)}">
 <link rel="canonical" href="{canon}"><meta property="og:title" content="{e(title)}"><meta property="og:description" content="{e(desc)}">
-<link rel="stylesheet" href="{rel}assets/style.css"></head><body>
+<link rel="stylesheet" href="{rel}assets/style.css?v={V}"></head><body>
 <a class="skip" href="#main">Skip to content</a>
 <header><div class="wrap bar"><a class="brand" href="{rel}"><span class="logo" aria-hidden="true">{e(NAME[0])}</span>{e(NAME)}</a><nav aria-label="Main">{nav}</nav></div></header>
 <main id="main" class="wrap">{body}</main>
@@ -41,6 +44,7 @@ def card(t, rel):
 def build():
     if OUT.exists(): shutil.rmtree(OUT)
     shutil.copytree(R/"static", OUT/"assets")
+    for js in (OUT/"assets").glob("*.js"): js.write_text(js.read_text().replace("__V__", V))
     (OUT/"data").mkdir(parents=True)
     idx = [{k: t[k] for k in ("slug","name","category","keywords","fields","tasks","use","pricing","free_tier","pricing_summary","data_note","status","last_checked")} for t in TOOLS]
     (OUT/"data/tools.json").write_text(json.dumps(idx, separators=(",",":")))
@@ -68,7 +72,7 @@ def build():
 <button type="button" id="reset">Reset</button></form>
 <p id="count" aria-live="polite"></p>{AD('finder-top')}<div id="results" class="grid"></div>
 <noscript><ul>{''.join(f'<li><a href="{t["slug"]}/">{e(t["name"])}</a></li>' for t in TOOLS)}</ul></noscript>""",
-      '<script src="../assets/finder.js" defer></script>')
+      f'<script src="../assets/finder.js?v={V}" defer></script>')
     for t in TOOLS:
         uses = [u for u in UC if t["slug"] in u["tools"]]
         page(f"tools/{t['slug']}/index.html", f"{t['name']}: pricing, free tier and privacy notes | {NAME}",
@@ -88,7 +92,7 @@ def build():
       f"""<h1>Agent use cases</h1><p class="draft">Draft, needs human review. These are starting points, not tested guarantees.</p>
 <form class="filters" onsubmit="return false"><label>Field<select id="ucfield"><option value="">All fields</option>{''.join(f'<option value="{k}">{v}</option>' for k,v in F.items())}</select></label></form>
 <h2 id="personal">Personal</h2><div id="uc-personal" class="stack"></div>{AD('usecases-mid')}<h2 id="work">Work</h2><div id="uc-work" class="stack"></div>""",
-      '<script src="../assets/usecases.js" defer></script>')
+      f'<script src="../assets/usecases.js?v={V}" defer></script>')
     page("news/index.html", f"AI news headlines | {NAME}", "AI news headlines with links to the original sources.",
       """<h1>AI news</h1><p>Coming soon: headlines and links only, from sources whose terms allow it.</p>
 <!-- TODO: wire feeds only after each source's terms are verified and recorded in data/sources.yml (approved: true). Show headline, source, date, link. No excerpts or images. -->

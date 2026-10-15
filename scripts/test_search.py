@@ -1,7 +1,7 @@
 import sys
 from playwright.sync_api import sync_playwright
 B=sys.argv[1] if len(sys.argv)>1 else "http://localhost:8766/"
-Q=["manager","teacher","meeting notes","email","make a presentation","nurse","coding","budget","zzqx"]
+Q=["accountant","lawyer","doctor","manager","teacher","meeting notes","email","make a presentation","nurse","coding","budget","zzqx"]
 errs=[];fail=False
 with sync_playwright() as p:
     b=p.chromium.launch();pg=b.new_page();pg.on("pageerror",lambda e:errs.append(str(e)))

@@ -1281,5 +1281,288 @@
    "no-code",
    "prototype"
   ]
+ },
+ {
+  "slug": "heidi-health",
+  "name": "Heidi Health",
+  "url": "https://www.heidihealth.com",
+  "category": "Clinical scribe",
+  "fields": [
+   "healthcare-admin"
+  ],
+  "tasks": [
+   "transcribe",
+   "write"
+  ],
+  "use": [
+   "Work"
+  ],
+  "pricing": "freemium",
+  "free_tier": "Yes",
+  "pricing_summary": "Free plan; Clinician plan with 14-day free trial (price: check site); Teams/Enterprise via sales.",
+  "data_note": "Clinical tool handling patient health information: only use under your organization's approved agreement (e.g., HIPAA BAA).",
+  "source_url": "https://www.heidihealth.com/pricing",
+  "pricing_verified": "2026-10-14",
+  "last_checked": "2026-10-14",
+  "status": "ok",
+  "keywords": [
+   "medical scribe",
+   "clinical notes",
+   "doctor",
+   "nurse",
+   "ehr"
+  ]
+ },
+ {
+  "slug": "freed",
+  "name": "Freed",
+  "url": "https://www.getfreed.ai",
+  "category": "Clinical scribe",
+  "fields": [
+   "healthcare-admin"
+  ],
+  "tasks": [
+   "transcribe",
+   "write"
+  ],
+  "use": [
+   "Work"
+  ],
+  "pricing": "paid",
+  "free_tier": "check site",
+  "pricing_summary": "AI scribe plans from $39/mo (Starter, 1 clinician); Core $79/mo; free trial offered.",
+  "data_note": "Clinical tool handling patient health information: only use under your organization's approved agreement (e.g., HIPAA BAA).",
+  "source_url": "https://www.getfreed.ai/pricing",
+  "pricing_verified": "2026-10-14",
+  "last_checked": "2026-10-14",
+  "status": "ok",
+  "keywords": [
+   "medical scribe",
+   "clinical notes",
+   "doctor",
+   "nurse",
+   "ehr"
+  ]
+ },
+ {
+  "slug": "abridge",
+  "name": "Abridge",
+  "url": "https://www.abridge.com",
+  "category": "Clinical scribe",
+  "fields": [
+   "healthcare-admin"
+  ],
+  "tasks": [
+   "transcribe",
+   "summarize"
+  ],
+  "use": [
+   "Work"
+  ],
+  "pricing": "check",
+  "free_tier": "check site",
+  "pricing_summary": "check site",
+  "data_note": "Clinical tool handling patient health information: only use under your organization's approved agreement (e.g., HIPAA BAA).",
+  "source_url": "https://www.abridge.com/",
+  "pricing_verified": null,
+  "last_checked": "2026-10-14",
+  "status": "ok",
+  "keywords": [
+   "medical scribe",
+   "clinical notes",
+   "health system",
+   "doctor",
+   "nurse"
+  ]
+ },
+ {
+  "slug": "julius-ai",
+  "name": "Julius AI",
+  "url": "https://julius.ai",
+  "category": "Data analysis",
+  "fields": [
+   "finance",
+   "small-business",
+   "it",
+   "education"
+  ],
+  "tasks": [
+   "analyze"
+  ],
+  "use": [
+   "Personal",
+   "Work"
+  ],
+  "pricing": "freemium",
+  "free_tier": "Yes",
+  "pricing_summary": "Free plan; Plus $20/mo ($16 annual); Pro $45/mo ($37 annual); Business plan available.",
+  "data_note": "Uploaded spreadsheets may contain sensitive data; remove personal or client info first.",
+  "source_url": "https://julius.ai/pricing",
+  "pricing_verified": "2026-10-14",
+  "last_checked": "2026-10-14",
+  "status": "ok",
+  "keywords": [
+   "spreadsheet",
+   "charts",
+   "excel",
+   "csv",
+   "data analysis",
+   "budget"
+  ]
+ },
+ {
+  "slug": "cleo",
+  "name": "Cleo",
+  "url": "https://web.meetcleo.com",
+  "category": "Personal finance assistant",
+  "fields": [
+   "finance"
+  ],
+  "tasks": [
+   "analyze",
+   "plan"
+  ],
+  "use": [
+   "Personal"
+  ],
+  "pricing": "paid",
+  "free_tier": "check site",
+  "pricing_summary": "Paid tiers shown at $5.99, $8.99 and $14.99 per month; free option: check site.",
+  "data_note": "Connects to or holds personal financial data; review what accounts you link.",
+  "source_url": "https://web.meetcleo.com/pricing",
+  "pricing_verified": "2026-10-14",
+  "last_checked": "2026-10-14",
+  "status": "ok",
+  "keywords": [
+   "budget",
+   "budgeting",
+   "money",
+   "spending",
+   "savings"
+  ]
+ },
+ {
+  "slug": "monarch-money",
+  "name": "Monarch Money",
+  "url": "https://www.monarch.com",
+  "category": "Personal finance / budgeting",
+  "fields": [
+   "finance"
+  ],
+  "tasks": [
+   "analyze",
+   "plan"
+  ],
+  "use": [
+   "Personal"
+  ],
+  "pricing": "check",
+  "free_tier": "check site",
+  "pricing_summary": "check site",
+  "data_note": "Connects to or holds personal financial data; review what accounts you link.",
+  "source_url": "https://www.monarch.com/pricing",
+  "pricing_verified": null,
+  "last_checked": "2026-10-14",
+  "status": "ok",
+  "keywords": [
+   "budget",
+   "budgeting",
+   "money",
+   "net worth",
+   "spending"
+  ]
+ },
+ {
+  "slug": "spellbook",
+  "name": "Spellbook",
+  "url": "https://www.spellbook.legal",
+  "category": "Legal drafting",
+  "fields": [
+   "legal"
+  ],
+  "tasks": [
+   "write",
+   "edit",
+   "research"
+  ],
+  "use": [
+   "Work"
+  ],
+  "pricing": "paid",
+  "free_tier": "No",
+  "pricing_summary": "7-day free trial; team pricing via demo (check site).",
+  "data_note": "Client-confidential material: use only under your firm's approved account and policies.",
+  "source_url": "https://www.spellbook.legal/pricing",
+  "pricing_verified": "2026-10-14",
+  "last_checked": "2026-10-14",
+  "status": "ok",
+  "keywords": [
+   "contracts",
+   "contract review",
+   "lawyer",
+   "word add-in"
+  ]
+ },
+ {
+  "slug": "harvey",
+  "name": "Harvey",
+  "url": "https://www.harvey.ai",
+  "category": "Legal AI platform",
+  "fields": [
+   "legal"
+  ],
+  "tasks": [
+   "research",
+   "write",
+   "summarize"
+  ],
+  "use": [
+   "Work"
+  ],
+  "pricing": "check",
+  "free_tier": "check site",
+  "pricing_summary": "check site",
+  "data_note": "Client-confidential material: use only under your firm's approved account and policies.",
+  "source_url": "https://www.harvey.ai/",
+  "pricing_verified": null,
+  "last_checked": "2026-10-14",
+  "status": "ok",
+  "keywords": [
+   "law firm",
+   "lawyer",
+   "legal research",
+   "contracts"
+  ]
+ },
+ {
+  "slug": "cocounsel-thomson-reuters",
+  "name": "CoCounsel (Thomson Reuters)",
+  "url": "https://legal.thomsonreuters.com/en/c/cocounsel",
+  "category": "Legal AI assistant",
+  "fields": [
+   "legal"
+  ],
+  "tasks": [
+   "research",
+   "summarize",
+   "write"
+  ],
+  "use": [
+   "Work"
+  ],
+  "pricing": "check",
+  "free_tier": "check site",
+  "pricing_summary": "check site",
+  "data_note": "Client-confidential material: use only under your firm's approved account and policies.",
+  "source_url": "https://legal.thomsonreuters.com/en/c/cocounsel/plans-and-pricing",
+  "pricing_verified": null,
+  "last_checked": "2026-10-14",
+  "status": "ok",
+  "keywords": [
+   "lawyer",
+   "legal research",
+   "document review",
+   "westlaw"
+  ]
  }
 ]

@@ -15,4 +15,4 @@ with sync_playwright() as p:
     m=b.new_page(viewport={"width":390,"height":844}); m.goto(B+"tools/?use=Work&field=it"); m.wait_for_timeout(500); m.screenshot(path="screenshots/finder-mobile.png",full_page=True)
     b.close()
 print(dict(total=total,edu_freemium=n,url=url,reload_same=n==n2,edu_freemium_meeting=nq,health_work_usecases=uw,errors=errs))
-assert not errs and total==38 and n==n2 and 0<n<total
+assert not errs and total>=38 and n==n2 and 0<n<total

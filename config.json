@@ -1,1 +1,15 @@
-{"site_name": "PlainAI", "tagline": "Get comfortable with AI, one useful task at a time.", "base_url": "https://nkwilli.github.io/ai-tool-finder", "fields": {"it": "IT", "education": "Education", "healthcare-admin": "Healthcare admin", "small-business": "Small business", "sales-marketing": "Sales & marketing", "writing-creative": "Writing & creative"}}
+{
+ "site_name": "PlainAI",
+ "tagline": "Get comfortable with AI, one useful task at a time.",
+ "base_url": "https://nkwilli.github.io/ai-tool-finder",
+ "fields": {
+  "it": "IT",
+  "education": "Education",
+  "healthcare-admin": "Healthcare admin",
+  "small-business": "Small business",
+  "sales-marketing": "Sales & marketing",
+  "writing-creative": "Writing & creative",
+  "finance": "Finance & accounting",
+  "legal": "Legal"
+ }
+}

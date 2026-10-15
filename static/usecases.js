@@ -1,5 +1,5 @@
 (async()=>{
-const [uc,tools,meta]=await Promise.all(['usecases','tools','meta'].map(n=>fetch(`../data/${n}.json`).then(r=>r.json())));
+const [uc,tools,meta]=await Promise.all(['usecases','tools','meta'].map(n=>fetch(`../data/${n}.json?v=__V__`).then(r=>r.json())));
 const by=Object.fromEntries(tools.map(t=>[t.slug,t]));const sel=document.getElementById('ucfield');
 const esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 const p=new URLSearchParams(location.search);if(p.get('field'))sel.value=p.get('field');

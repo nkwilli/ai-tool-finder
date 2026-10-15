@@ -5,7 +5,7 @@ body{margin:0;font:16px/1.65 ui-sans-serif,system-ui,-apple-system,"Segoe UI",Ro
 h1,h2,h3{line-height:1.25;letter-spacing:-.015em}h2{margin-top:2.25rem;font-size:1.35rem}
 .wrap{max-width:1120px;margin:0 auto;padding:0 1.25rem}a{color:var(--accent);text-underline-offset:3px}
 .skip{position:absolute;left:-999px}.skip:focus{left:1rem;top:1rem;background:var(--surface);padding:.5rem 1rem;border-radius:8px;z-index:9}
-header{position:sticky;top:0;z-index:5;background:color-mix(in srgb,var(--surface) 88%,transparent);backdrop-filter:saturate(1.4) blur(10px);border-bottom:1px solid var(--line)}
+header{position:sticky;top:0;z-index:5;background:var(--surface);background:color-mix(in srgb,var(--surface) 88%,transparent);backdrop-filter:saturate(1.4) blur(10px);border-bottom:1px solid var(--line)}
 .bar{display:flex;flex-wrap:wrap;gap:.5rem 1.5rem;align-items:center;justify-content:space-between;padding:.7rem 1.25rem}
 .brand{display:flex;align-items:center;gap:.5rem;font-weight:800;font-size:1.2rem;text-decoration:none;color:var(--fg)}
 .logo{display:grid;place-items:center;width:32px;height:32px;border-radius:9px;color:#fff;font-size:1rem;background:linear-gradient(135deg,#4338ca,#0e7490)}
