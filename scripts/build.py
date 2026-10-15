@@ -21,7 +21,7 @@ def page(path, title, desc, body, scripts=""):
 <link rel="canonical" href="{canon}"><meta property="og:title" content="{e(title)}"><meta property="og:description" content="{e(desc)}">
 <link rel="stylesheet" href="{rel}assets/style.css"></head><body>
 <a class="skip" href="#main">Skip to content</a>
-<header><div class="wrap bar"><a class="brand" href="{rel}">{e(NAME)}</a><nav aria-label="Main">{nav}</nav></div></header>
+<header><div class="wrap bar"><a class="brand" href="{rel}"><span class="logo" aria-hidden="true">{e(NAME[0])}</span>{e(NAME)}</a><nav aria-label="Main">{nav}</nav></div></header>
 <main id="main" class="wrap">{body}</main>
 <footer><div class="wrap"><p>&copy; {datetime.date.today().year} {e(NAME)} &middot; <a href="{rel}privacy/">Privacy</a> &middot; <a href="{rel}disclosure/">Affiliate &amp; ad disclosure</a> &middot; <a href="{rel}about/">About</a></p>
 <p class="muted">Prices change often. Always confirm on the tool's own site.</p></div></footer>
@@ -33,7 +33,8 @@ PRICE = {"free": "Free", "freemium": "Free tier + paid", "paid": "Paid", "check"
 
 def card(t, rel):
     dead = ' <span class="badge warn">link may be down</span>' if t.get("status") == "dead" else ""
-    return f"""<article class="card"><h3><a href="{rel}tools/{t['slug']}/">{e(t['name'])}</a>{dead}</h3>
+    hue = sum(map(ord, t['category'])) * 37 % 360
+    return f"""<article class="card"><span class="avatar" style="--h:{hue}" aria-hidden="true">{e(t['name'][0])}</span><h3><a href="{rel}tools/{t['slug']}/">{e(t['name'])}</a>{dead}</h3>
 <p class="muted">{e(t['category'])} &middot; {' / '.join(t['use'])}</p>
 <p><span class="badge">{PRICE[t['pricing']]}</span> Free tier: {e(t['free_tier'])}</p></article>"""
 

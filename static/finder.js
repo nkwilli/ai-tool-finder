@@ -13,7 +13,7 @@ function render(){
  const q=new URLSearchParams();keys.forEach(k=>v[k]&&q.set(k,v[k]));
  history.replaceState(null,'',location.pathname+(q.toString()?'?'+q:''));
  cnt.textContent=`${r.length} of ${tools.length} tools`;
- out.innerHTML=r.map(t=>`<article class="card"><h3><a href="${t.slug}/">${esc(t.name)}</a>${t.status==='dead'?' <span class="badge warn">link may be down</span>':''}</h3>
+ out.innerHTML=r.map(t=>`<article class="card"><span class="avatar" style="--h:${[...t.category].reduce((a,c)=>a+c.charCodeAt(0),0)*37%360}" aria-hidden="true">${esc(t.name[0])}</span><h3><a href="${t.slug}/">${esc(t.name)}</a>${t.status==='dead'?' <span class="badge warn">link may be down</span>':''}</h3>
 <p class="muted">${esc(t.category)} &middot; ${t.use.join(' / ')}</p><p><span class="badge">${meta.price[t.pricing]}</span> Free tier: ${esc(t.free_tier)}</p>
 <p class="muted"><strong>Data:</strong> ${esc(t.data_note)}</p></article>`).join('')||'<p>No tools match. Try removing a filter.</p>';
 }
