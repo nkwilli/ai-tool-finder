@@ -1303,7 +1303,7 @@
   "data_note": "Clinical tool handling patient health information: only use under your organization's approved agreement (e.g., HIPAA BAA).",
   "source_url": "https://www.heidihealth.com/pricing",
   "pricing_verified": "2026-10-14",
-  "last_checked": "2026-10-14",
+  "last_checked": "2026-10-15",
   "status": "ok",
   "keywords": [
    "medical scribe",
@@ -1311,7 +1311,8 @@
    "doctor",
    "nurse",
    "ehr"
-  ]
+  ],
+  "fail_count": 0
  },
  {
   "slug": "freed",
@@ -1334,7 +1335,7 @@
   "data_note": "Clinical tool handling patient health information: only use under your organization's approved agreement (e.g., HIPAA BAA).",
   "source_url": "https://www.getfreed.ai/pricing",
   "pricing_verified": "2026-10-14",
-  "last_checked": "2026-10-14",
+  "last_checked": "2026-10-15",
   "status": "ok",
   "keywords": [
    "medical scribe",
@@ -1342,7 +1343,8 @@
    "doctor",
    "nurse",
    "ehr"
-  ]
+  ],
+  "fail_count": 0
  },
  {
   "slug": "abridge",
@@ -1365,7 +1367,7 @@
   "data_note": "Clinical tool handling patient health information: only use under your organization's approved agreement (e.g., HIPAA BAA).",
   "source_url": "https://www.abridge.com/",
   "pricing_verified": null,
-  "last_checked": "2026-10-14",
+  "last_checked": "2026-10-15",
   "status": "ok",
   "keywords": [
    "medical scribe",
@@ -1373,7 +1375,8 @@
    "health system",
    "doctor",
    "nurse"
-  ]
+  ],
+  "fail_count": 0
  },
  {
   "slug": "julius-ai",
@@ -1399,7 +1402,7 @@
   "data_note": "Uploaded spreadsheets may contain sensitive data; remove personal or client info first.",
   "source_url": "https://julius.ai/pricing",
   "pricing_verified": "2026-10-14",
-  "last_checked": "2026-10-14",
+  "last_checked": "2026-10-15",
   "status": "ok",
   "keywords": [
    "spreadsheet",
@@ -1408,7 +1411,8 @@
    "csv",
    "data analysis",
    "budget"
-  ]
+  ],
+  "fail_count": 0
  },
  {
   "slug": "cleo",
@@ -1431,7 +1435,7 @@
   "data_note": "Connects to or holds personal financial data; review what accounts you link.",
   "source_url": "https://web.meetcleo.com/pricing",
   "pricing_verified": "2026-10-14",
-  "last_checked": "2026-10-14",
+  "last_checked": "2026-10-15",
   "status": "ok",
   "keywords": [
    "budget",
@@ -1439,7 +1443,8 @@
    "money",
    "spending",
    "savings"
-  ]
+  ],
+  "fail_count": 0
  },
  {
   "slug": "monarch-money",
@@ -1462,7 +1467,7 @@
   "data_note": "Connects to or holds personal financial data; review what accounts you link.",
   "source_url": "https://www.monarch.com/pricing",
   "pricing_verified": null,
-  "last_checked": "2026-10-14",
+  "last_checked": "2026-10-15",
   "status": "ok",
   "keywords": [
    "budget",
@@ -1470,7 +1475,8 @@
    "money",
    "net worth",
    "spending"
-  ]
+  ],
+  "fail_count": 0
  },
  {
   "slug": "spellbook",
@@ -1494,14 +1500,15 @@
   "data_note": "Client-confidential material: use only under your firm's approved account and policies.",
   "source_url": "https://www.spellbook.legal/pricing",
   "pricing_verified": "2026-10-14",
-  "last_checked": "2026-10-14",
+  "last_checked": "2026-10-15",
   "status": "ok",
   "keywords": [
    "contracts",
    "contract review",
    "lawyer",
    "word add-in"
-  ]
+  ],
+  "fail_count": 0
  },
  {
   "slug": "harvey",
@@ -1525,14 +1532,15 @@
   "data_note": "Client-confidential material: use only under your firm's approved account and policies.",
   "source_url": "https://www.harvey.ai/",
   "pricing_verified": null,
-  "last_checked": "2026-10-14",
+  "last_checked": "2026-10-15",
   "status": "ok",
   "keywords": [
    "law firm",
    "lawyer",
    "legal research",
    "contracts"
-  ]
+  ],
+  "fail_count": 0
  },
  {
   "slug": "cocounsel-thomson-reuters",
@@ -1556,13 +1564,14 @@
   "data_note": "Client-confidential material: use only under your firm's approved account and policies.",
   "source_url": "https://legal.thomsonreuters.com/en/c/cocounsel/plans-and-pricing",
   "pricing_verified": null,
-  "last_checked": "2026-10-14",
+  "last_checked": "2026-10-15",
   "status": "ok",
   "keywords": [
    "lawyer",
    "legal research",
    "document review",
    "westlaw"
-  ]
+  ],
+  "fail_count": 0
  }
 ]
