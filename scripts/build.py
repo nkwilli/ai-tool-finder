@@ -45,7 +45,7 @@ def build():
     (OUT/"data/tools.json").write_text(json.dumps(idx, separators=(",",":")))
     (OUT/"data/usecases.json").write_text(json.dumps(UC, separators=(",",":")))
     (OUT/"data/meta.json").write_text(json.dumps({"fields": F, "tasks": TASKS, "price": PRICE}))
-    featured = [BY[s] for s in ("chatgpt","claude","otter-ai","zapier","canva","magicschool") if s in BY]
+    featured = [BY[s] for s in ("chatgpt","claude","grok","otter-ai","zapier","canva","magicschool") if s in BY]
     page("index.html", f"{NAME}: get comfortable with AI and agents",
       "Plain-language help for everyday people: find the right AI tool for your life or your job, with honest pricing and privacy notes.",
       f"""<section class="hero"><h1>{e(C['tagline'])}</h1>
