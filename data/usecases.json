@@ -1,13 +1,215 @@
 [
-{"id":"meal-plan","title":"Plan a week of meals and a grocery list","section":"Personal","fields":[],"tools":["chatgpt","claude","google-gemini"],"steps":"Tell the assistant who you're cooking for, any allergies, and your budget. Ask for 5 dinners and one combined grocery list grouped by store aisle.","watch_out":"Double-check allergy and nutrition claims; the assistant can be wrong."},
-{"id":"explain-bill","title":"Understand a confusing letter or bill","section":"Personal","fields":[],"tools":["chatgpt","claude","google-gemini"],"steps":"Remove account numbers and personal details, paste the text, and ask: 'Explain this in plain English and list what I need to do and by when.'","watch_out":"Not legal, tax or medical advice. Confirm deadlines with the sender."},
-{"id":"study-guide","title":"Turn your notes into a study guide","section":"Personal","fields":["education"],"tools":["notebooklm","khanmigo","chatgpt"],"steps":"Upload your own notes or slides and ask for a summary, key terms and 10 practice questions.","watch_out":"Check answers against your course material; follow your school's AI policy."},
-{"id":"meeting-actions","title":"Turn a meeting into an action list","section":"Work","fields":["it","small-business","sales-marketing","education"],"tools":["otter-ai","fireflies-ai","fathom"],"steps":"Let the note-taker join or record the call, then ask its summary for decisions, owners and due dates.","watch_out":"Tell attendees you're recording and follow consent rules. Review the summary before sharing."},
-{"id":"lesson-plan","title":"Draft a lesson plan and differentiated worksheets","section":"Work","fields":["education"],"tools":["magicschool","khanmigo","chatgpt"],"steps":"Give the grade, standard and time available; ask for a lesson outline plus easier and harder versions of the worksheet.","watch_out":"Leave student names and records out unless your district has approved the tool."},
-{"id":"ticket-reply","title":"Write a clear reply to a support ticket","section":"Work","fields":["it"],"tools":["chatgpt","claude","microsoft-copilot-microsoft-365"],"steps":"Describe the issue in general terms (no passwords, hostnames or user data) and ask for a friendly, step-by-step reply for a non-technical user.","watch_out":"Verify every technical step yourself before sending."},
-{"id":"lead-followup","title":"Automate a follow-up when a new lead comes in","section":"Work","fields":["small-business","sales-marketing"],"tools":["zapier","make","hubspot-breeze-ai"],"steps":"Set a trigger (new form submission), then an action that adds the lead to your CRM and drafts a follow-up email for you to approve.","watch_out":"Keep a human approval step before anything is sent to customers. This is a simple 'agent' workflow."},
-{"id":"social-posts","title":"Repurpose one article into social posts","section":"Work","fields":["sales-marketing","writing-creative","small-business"],"tools":["claude","chatgpt","canva"],"steps":"Paste your own article and ask for 5 short posts in your brand voice, then lay out graphics in a design tool.","watch_out":"Fact-check anything the AI adds that wasn't in your original."},
-{"id":"admin-letter","title":"Draft a patient-friendly appointment letter template","section":"Work","fields":["healthcare-admin"],"tools":["chatgpt","claude","grammarly"],"steps":"Ask for a plain-language template with placeholders like [Patient name] and [Date], at a 6th-grade reading level.","watch_out":"Never paste real patient information (PHI) into a tool your organization hasn't approved under HIPAA."},
-{"id":"podcast-cleanup","title":"Clean up a recorded interview","section":"Work","fields":["writing-creative","sales-marketing","education"],"tools":["descript","elevenlabs"],"steps":"Import the recording, edit the transcript to cut filler and mistakes, and export the trimmed audio or video.","watch_out":"Only generate or clone voices with the speaker's permission."},
-{"id":"calendar-agent","title":"Let an assistant protect focus time on your calendar","section":"Personal","fields":["it","small-business"],"tools":["reclaim-ai","motion"],"steps":"Connect your calendar, set your working hours and priorities, and let the tool schedule tasks and focus blocks around meetings.","watch_out":"Check what calendar access your employer allows before connecting a work account."}
+ {
+  "id": "meal-plan",
+  "title": "Plan a week of meals and a grocery list",
+  "section": "Personal",
+  "fields": [],
+  "tools": [
+   "chatgpt",
+   "claude",
+   "google-gemini"
+  ],
+  "steps": "Tell the assistant who you're cooking for, any allergies, and your budget. Ask for 5 dinners and one combined grocery list grouped by store aisle.",
+  "watch_out": "Double-check allergy and nutrition claims; the assistant can be wrong."
+ },
+ {
+  "id": "explain-bill",
+  "title": "Understand a confusing letter or bill",
+  "section": "Personal",
+  "fields": [],
+  "tools": [
+   "chatgpt",
+   "claude",
+   "google-gemini"
+  ],
+  "steps": "Remove account numbers and personal details, paste the text, and ask: 'Explain this in plain English and list what I need to do and by when.'",
+  "watch_out": "Not legal, tax or medical advice. Confirm deadlines with the sender."
+ },
+ {
+  "id": "study-guide",
+  "title": "Turn your notes into a study guide",
+  "section": "Personal",
+  "fields": [
+   "education"
+  ],
+  "tools": [
+   "notebooklm",
+   "khanmigo",
+   "chatgpt"
+  ],
+  "steps": "Upload your own notes or slides and ask for a summary, key terms and 10 practice questions.",
+  "watch_out": "Check answers against your course material; follow your school's AI policy."
+ },
+ {
+  "id": "meeting-actions",
+  "title": "Turn a meeting into an action list",
+  "section": "Work",
+  "fields": [
+   "it",
+   "small-business",
+   "sales-marketing",
+   "education"
+  ],
+  "tools": [
+   "otter-ai",
+   "fireflies-ai",
+   "fathom"
+  ],
+  "steps": "Let the note-taker join or record the call, then ask its summary for decisions, owners and due dates.",
+  "watch_out": "Tell attendees you're recording and follow consent rules. Review the summary before sharing."
+ },
+ {
+  "id": "lesson-plan",
+  "title": "Draft a lesson plan and differentiated worksheets",
+  "section": "Work",
+  "fields": [
+   "education"
+  ],
+  "tools": [
+   "magicschool",
+   "khanmigo",
+   "chatgpt"
+  ],
+  "steps": "Give the grade, standard and time available; ask for a lesson outline plus easier and harder versions of the worksheet.",
+  "watch_out": "Leave student names and records out unless your district has approved the tool."
+ },
+ {
+  "id": "ticket-reply",
+  "title": "Write a clear reply to a support ticket",
+  "section": "Work",
+  "fields": [
+   "it"
+  ],
+  "tools": [
+   "chatgpt",
+   "claude",
+   "microsoft-copilot-microsoft-365"
+  ],
+  "steps": "Describe the issue in general terms (no passwords, hostnames or user data) and ask for a friendly, step-by-step reply for a non-technical user.",
+  "watch_out": "Verify every technical step yourself before sending."
+ },
+ {
+  "id": "lead-followup",
+  "title": "Automate a follow-up when a new lead comes in",
+  "section": "Work",
+  "fields": [
+   "small-business",
+   "sales-marketing"
+  ],
+  "tools": [
+   "zapier",
+   "make",
+   "hubspot-breeze-ai"
+  ],
+  "steps": "Set a trigger (new form submission), then an action that adds the lead to your CRM and drafts a follow-up email for you to approve.",
+  "watch_out": "Keep a human approval step before anything is sent to customers. This is a simple 'agent' workflow."
+ },
+ {
+  "id": "social-posts",
+  "title": "Repurpose one article into social posts",
+  "section": "Work",
+  "fields": [
+   "sales-marketing",
+   "writing-creative",
+   "small-business"
+  ],
+  "tools": [
+   "claude",
+   "chatgpt",
+   "canva"
+  ],
+  "steps": "Paste your own article and ask for 5 short posts in your brand voice, then lay out graphics in a design tool.",
+  "watch_out": "Fact-check anything the AI adds that wasn't in your original."
+ },
+ {
+  "id": "admin-letter",
+  "title": "Draft a patient-friendly appointment letter template",
+  "section": "Work",
+  "fields": [
+   "healthcare-admin"
+  ],
+  "tools": [
+   "chatgpt",
+   "claude",
+   "grammarly"
+  ],
+  "steps": "Ask for a plain-language template with placeholders like [Patient name] and [Date], at a 6th-grade reading level.",
+  "watch_out": "Never paste real patient information (PHI) into a tool your organization hasn't approved under HIPAA."
+ },
+ {
+  "id": "podcast-cleanup",
+  "title": "Clean up a recorded interview",
+  "section": "Work",
+  "fields": [
+   "writing-creative",
+   "sales-marketing",
+   "education"
+  ],
+  "tools": [
+   "descript",
+   "elevenlabs"
+  ],
+  "steps": "Import the recording, edit the transcript to cut filler and mistakes, and export the trimmed audio or video.",
+  "watch_out": "Only generate or clone voices with the speaker's permission."
+ },
+ {
+  "id": "calendar-agent",
+  "title": "Let an assistant protect focus time on your calendar",
+  "section": "Personal",
+  "fields": [
+   "it",
+   "small-business"
+  ],
+  "tools": [
+   "reclaim-ai",
+   "motion"
+  ],
+  "steps": "Connect your calendar, set your working hours and priorities, and let the tool schedule tasks and focus blocks around meetings.",
+  "watch_out": "Check what calendar access your employer allows before connecting a work account."
+ },
+ {
+  "id": "tough-email",
+  "title": "Draft a polite but firm reply to a difficult email",
+  "section": "Work",
+  "fields": [
+   "other"
+  ],
+  "tools": [
+   "chatgpt",
+   "claude",
+   "grammarly"
+  ],
+  "steps": "Summarize the situation in your own words (leave out names and confidential details) and ask for a short, calm reply that states what you can and can't do.",
+  "watch_out": "Read it in your own voice before sending; the AI doesn't know the full history."
+ },
+ {
+  "id": "doc-briefing",
+  "title": "Get a one-page briefing on a long document before a meeting",
+  "section": "Work",
+  "fields": [
+   "other"
+  ],
+  "tools": [
+   "notebooklm",
+   "claude",
+   "chatgpt"
+  ],
+  "steps": "Upload a document you're allowed to share with the tool and ask for the key points, open questions, and anything that needs a decision.",
+  "watch_out": "Summaries can miss or misstate details; check anything important against the original."
+ },
+ {
+  "id": "translate-message",
+  "title": "Translate a message for a coworker or customer",
+  "section": "Work",
+  "fields": [
+   "other"
+  ],
+  "tools": [
+   "deepl",
+   "google-gemini",
+   "chatgpt"
+  ],
+  "steps": "Paste the message, name the target language and tone (formal or casual), and ask for the translation plus a back-translation to check meaning.",
+  "watch_out": "For legal, medical or safety-critical text, use a professional translator."
+ }
 ]

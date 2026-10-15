@@ -41,6 +41,13 @@ def card(t, rel):
 <p class="muted">{e(t['category'])} &middot; {' / '.join(t['use'])}</p>
 <p><span class="badge">{PRICE[t['pricing']]}</span> Free tier: {e(t['free_tier'])}</p></article>"""
 
+def uc_opts():
+    n = lambda pred: sum(1 for u in UC if pred(u))
+    opts = [("", "All", len(UC)), ("personal", "Personal", n(lambda u: u["section"] == "Personal"))]
+    opts += [(k, v, n(lambda u, k=k: k in u["fields"])) for k, v in F.items()]
+    opts += [("other", "Other / general", n(lambda u: "other" in u["fields"]))]
+    return "".join(f'<option value="{k}">{e(v)} ({c})</option>' for k, v, c in opts if c or k == "")
+
 def build():
     if OUT.exists(): shutil.rmtree(OUT)
     shutil.copytree(R/"static", OUT/"assets")
@@ -90,7 +97,7 @@ def build():
     page("use-cases/index.html", f"Agent and AI use cases for home and work | {NAME}",
       "Practical ways to use AI assistants and simple agents in your personal life and at work, filterable by field.",
       f"""<h1>Agent use cases</h1><p class="draft">Draft, needs human review. These are starting points, not tested guarantees.</p>
-<form class="filters" onsubmit="return false"><label>Field<select id="ucfield"><option value="">All fields</option>{''.join(f'<option value="{k}">{v}</option>' for k,v in F.items())}</select></label></form>
+<form class="filters" onsubmit="return false"><label>Show<select id="ucfield">{uc_opts()}</select></label></form>
 <h2 id="personal">Personal</h2><div id="uc-personal" class="stack"></div>{AD('usecases-mid')}<h2 id="work">Work</h2><div id="uc-work" class="stack"></div>""",
       f'<script src="../assets/usecases.js?v={V}" defer></script>')
     page("news/index.html", f"AI news headlines | {NAME}", "AI news headlines with links to the original sources.",
