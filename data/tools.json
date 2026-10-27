@@ -29,7 +29,7 @@
   "data_note": "Don't paste confidential, client, patient or student data on a personal account; use your organization's approved plan.",
   "source_url": "https://openai.com/chatgpt/pricing/",
   "pricing_verified": "2026-10-14",
-  "last_checked": "2026-10-26",
+  "last_checked": "2026-10-27",
   "status": "ok",
   "fail_count": 0,
   "keywords": [
@@ -70,7 +70,7 @@
   "data_note": "Don't paste confidential, client, patient or student data on a personal account; use your organization's approved plan.",
   "source_url": "https://claude.com/pricing",
   "pricing_verified": "2026-10-14",
-  "last_checked": "2026-10-26",
+  "last_checked": "2026-10-27",
   "status": "ok",
   "fail_count": 0,
   "keywords": [
@@ -110,7 +110,7 @@
   "data_note": "Don't paste confidential, client, patient or student data on a personal account; use your organization's approved plan.",
   "source_url": "https://gemini.google/subscriptions/",
   "pricing_verified": "2026-10-14",
-  "last_checked": "2026-10-26",
+  "last_checked": "2026-10-27",
   "status": "ok",
   "fail_count": 0,
   "keywords": [
@@ -147,7 +147,7 @@
   "data_note": "Don't paste confidential, client, patient or student data on a personal account; use your organization's approved plan.",
   "source_url": "https://www.microsoft.com/en-us/microsoft-copilot/for-individuals",
   "pricing_verified": "2026-10-14",
-  "last_checked": "2026-10-26",
+  "last_checked": "2026-10-27",
   "status": "ok",
   "fail_count": 0,
   "keywords": [
@@ -186,7 +186,7 @@
   "data_note": "Don't paste confidential, client, patient or student data on a personal account; use your organization's approved plan.",
   "source_url": "https://www.perplexity.ai/pro",
   "pricing_verified": null,
-  "last_checked": "2026-10-26",
+  "last_checked": "2026-10-27",
   "status": "ok",
   "fail_count": 0,
   "keywords": [
@@ -222,7 +222,7 @@
   "data_note": "Don't paste confidential, client, patient or student data on a personal account; use your organization's approved plan.",
   "source_url": "https://grok.com/plans",
   "pricing_verified": null,
-  "last_checked": "2026-10-26",
+  "last_checked": "2026-10-27",
   "status": "ok",
   "fail_count": 0,
   "keywords": [
@@ -258,7 +258,7 @@
   "data_note": "Don't paste confidential, client, patient or student data on a personal account; use your organization's approved plan.",
   "source_url": "https://notebooklm.google/plans",
   "pricing_verified": null,
-  "last_checked": "2026-10-26",
+  "last_checked": "2026-10-27",
   "status": "ok",
   "fail_count": 0,
   "keywords": [
@@ -295,7 +295,7 @@
   "data_note": "Don't paste confidential, client, patient or student data on a personal account; use your organization's approved plan.",
   "source_url": "https://www.grammarly.com/plans",
   "pricing_verified": "2026-10-14",
-  "last_checked": "2026-10-26",
+  "last_checked": "2026-10-27",
   "status": "ok",
   "fail_count": 0,
   "keywords": [
@@ -330,7 +330,7 @@
   "data_note": "Mostly low-risk content (public or creative); still avoid uploading private info.",
   "source_url": "https://www.canva.com/pricing/",
   "pricing_verified": null,
-  "last_checked": "2026-10-26",
+  "last_checked": "2026-10-27",
   "status": "ok",
   "fail_count": 0,
   "keywords": [
@@ -367,7 +367,7 @@
   "data_note": "Don't paste confidential, client, patient or student data on a personal account; use your organization's approved plan.",
   "source_url": "https://www.notion.com/pricing",
   "pricing_verified": "2026-10-14",
-  "last_checked": "2026-10-26",
+  "last_checked": "2026-10-27",
   "status": "ok",
   "fail_count": 0,
   "keywords": [
@@ -403,7 +403,7 @@
   "data_note": "Records and transcribes conversations: tell participants and follow your workplace's recording/consent rules.",
   "source_url": "https://otter.ai/pricing",
   "pricing_verified": "2026-10-14",
-  "last_checked": "2026-10-26",
+  "last_checked": "2026-10-27",
   "status": "ok",
   "fail_count": 0,
   "keywords": [
@@ -436,7 +436,7 @@
   "data_note": "Records and transcribes conversations: tell participants and follow your workplace's recording/consent rules.",
   "source_url": "https://fireflies.ai/pricing",
   "pricing_verified": "2026-10-14",
-  "last_checked": "2026-10-26",
+  "last_checked": "2026-10-27",
   "status": "ok",
   "fail_count": 0,
   "keywords": [
@@ -468,7 +468,7 @@
   "data_note": "Records and transcribes conversations: tell participants and follow your workplace's recording/consent rules.",
   "source_url": "https://www.fathom.ai/pricing",
   "pricing_verified": "2026-10-14",
-  "last_checked": "2026-10-26",
+  "last_checked": "2026-10-27",
   "status": "ok",
   "fail_count": 0,
   "keywords": [
@@ -499,7 +499,7 @@
   "data_note": "Automations move data between apps; check what each connected app is allowed to share.",
   "source_url": "https://zapier.com/pricing",
   "pricing_verified": "2026-10-14",
-  "last_checked": "2026-10-26",
+  "last_checked": "2026-10-27",
   "status": "ok",
   "fail_count": 0,
   "keywords": [
@@ -531,7 +531,7 @@
   "data_note": "Automations move data between apps; check what each connected app is allowed to share.",
   "source_url": "https://www.make.com/en/pricing",
   "pricing_verified": null,
-  "last_checked": "2026-10-26",
+  "last_checked": "2026-10-27",
   "status": "ok",
   "fail_count": 0,
   "keywords": [
@@ -562,7 +562,7 @@
   "data_note": "Can be self-hosted, which keeps data on your own servers; confirm with IT.",
   "source_url": "https://n8n.io/pricing/",
   "pricing_verified": "2026-10-14",
-  "last_checked": "2026-10-26",
+  "last_checked": "2026-10-27",
   "status": "ok",
   "fail_count": 0,
   "keywords": [
@@ -598,7 +598,7 @@
   "data_note": "Mostly low-risk content (public or creative); still avoid uploading private info.",
   "source_url": "https://www.descript.com/pricing",
   "pricing_verified": "2026-10-14",
-  "last_checked": "2026-10-26",
+  "last_checked": "2026-10-27",
   "status": "ok",
   "fail_count": 0,
   "keywords": [
@@ -632,7 +632,7 @@
   "data_note": "Only clone voices you have permission to use.",
   "source_url": "https://elevenlabs.io/pricing",
   "pricing_verified": "2026-10-14",
-  "last_checked": "2026-10-26",
+  "last_checked": "2026-10-27",
   "status": "ok",
   "fail_count": 0,
   "keywords": [
@@ -665,7 +665,7 @@
   "data_note": "Mostly low-risk content (public or creative); still avoid uploading private info.",
   "source_url": "https://docs.midjourney.com/hc/en-us/articles/27870484040333-Comparing-Midjourney-Plans",
   "pricing_verified": null,
-  "last_checked": "2026-10-26",
+  "last_checked": "2026-10-27",
   "status": "ok",
   "fail_count": 0,
   "keywords": [
@@ -699,7 +699,7 @@
   "data_note": "Don't paste confidential, client, patient or student data on a personal account; use your organization's approved plan.",
   "source_url": "https://gamma.app/pricing",
   "pricing_verified": null,
-  "last_checked": "2026-10-26",
+  "last_checked": "2026-10-27",
   "status": "ok",
   "fail_count": 0,
   "keywords": [
@@ -729,7 +729,7 @@
   "data_note": "Check your employer's policy before using on company code.",
   "source_url": "https://github.com/features/copilot/plans",
   "pricing_verified": "2026-10-14",
-  "last_checked": "2026-10-26",
+  "last_checked": "2026-10-27",
   "status": "ok",
   "fail_count": 0,
   "keywords": [
@@ -758,7 +758,7 @@
   "data_note": "Check your employer's policy before using on company code.",
   "source_url": "https://cursor.com/pricing",
   "pricing_verified": null,
-  "last_checked": "2026-10-26",
+  "last_checked": "2026-10-27",
   "status": "ok",
   "fail_count": 0,
   "keywords": [
@@ -790,7 +790,7 @@
   "data_note": "Don't paste confidential, client, patient or student data on a personal account; use your organization's approved plan.",
   "source_url": "https://quillbot.com/upgrade",
   "pricing_verified": null,
-  "last_checked": "2026-10-26",
+  "last_checked": "2026-10-27",
   "status": "ok",
   "fail_count": 0,
   "keywords": [
@@ -825,7 +825,7 @@
   "data_note": "Don't paste confidential, client, patient or student data on a personal account; use your organization's approved plan.",
   "source_url": "https://www.deepl.com/en/pro",
   "pricing_verified": "2026-10-14",
-  "last_checked": "2026-10-26",
+  "last_checked": "2026-10-27",
   "status": "ok",
   "fail_count": 0,
   "keywords": [
@@ -855,7 +855,7 @@
   "data_note": "Designed for students; follow your school's rules on student data (e.g., FERPA).",
   "source_url": "https://www.khanmigo.ai/pricing",
   "pricing_verified": "2026-10-14",
-  "last_checked": "2026-10-26",
+  "last_checked": "2026-10-27",
   "status": "ok",
   "fail_count": 0,
   "keywords": [
@@ -888,7 +888,7 @@
   "data_note": "Keep student-identifying data out unless your district has approved it.",
   "source_url": "https://www.magicschool.ai/pricing",
   "pricing_verified": "2026-10-14",
-  "last_checked": "2026-10-26",
+  "last_checked": "2026-10-27",
   "status": "ok",
   "fail_count": 0,
   "keywords": [
@@ -919,7 +919,7 @@
   "data_note": "Don't paste confidential, client, patient or student data on a personal account; use your organization's approved plan.",
   "source_url": "https://www.jasper.ai/pricing",
   "pricing_verified": "2026-10-14",
-  "last_checked": "2026-10-26",
+  "last_checked": "2026-10-27",
   "status": "ok",
   "fail_count": 0,
   "keywords": [
@@ -952,7 +952,7 @@
   "data_note": "Contains customer data; set permissions carefully.",
   "source_url": "https://www.hubspot.com/products/artificial-intelligence",
   "pricing_verified": "2026-10-14",
-  "last_checked": "2026-10-26",
+  "last_checked": "2026-10-27",
   "status": "ok",
   "fail_count": 0,
   "keywords": [
@@ -987,7 +987,7 @@
   "data_note": "Don't paste confidential, client, patient or student data on a personal account; use your organization's approved plan.",
   "source_url": "https://wisprflow.ai/pricing",
   "pricing_verified": "2026-10-14",
-  "last_checked": "2026-10-26",
+  "last_checked": "2026-10-27",
   "status": "ok",
   "fail_count": 0,
   "keywords": [
@@ -1021,7 +1021,7 @@
   "data_note": "Needs calendar access; check what your work account allows.",
   "source_url": "https://reclaim.ai/pricing",
   "pricing_verified": "2026-10-14",
-  "last_checked": "2026-10-26",
+  "last_checked": "2026-10-27",
   "status": "ok",
   "fail_count": 0,
   "keywords": [
@@ -1053,7 +1053,7 @@
   "data_note": "Needs calendar access; check what your work account allows.",
   "source_url": "https://www.usemotion.com/pricing",
   "pricing_verified": "2026-10-14",
-  "last_checked": "2026-10-26",
+  "last_checked": "2026-10-27",
   "status": "ok",
   "fail_count": 0,
   "keywords": [
@@ -1084,7 +1084,7 @@
   "data_note": "Only use likenesses and voices you have permission to use.",
   "source_url": "https://www.heygen.com/pricing",
   "pricing_verified": "2026-10-14",
-  "last_checked": "2026-10-26",
+  "last_checked": "2026-10-27",
   "status": "ok",
   "fail_count": 0,
   "keywords": [
@@ -1115,7 +1115,7 @@
   "data_note": "Only use likenesses and voices you have permission to use.",
   "source_url": "https://www.synthesia.io/pricing",
   "pricing_verified": "2026-10-14",
-  "last_checked": "2026-10-26",
+  "last_checked": "2026-10-27",
   "status": "ok",
   "fail_count": 0,
   "keywords": [
@@ -1147,7 +1147,7 @@
   "data_note": "Mostly low-risk content (public or creative); still avoid uploading private info.",
   "source_url": "https://runwayml.com/pricing",
   "pricing_verified": "2026-10-14",
-  "last_checked": "2026-10-26",
+  "last_checked": "2026-10-27",
   "status": "ok",
   "fail_count": 0,
   "keywords": [
@@ -1177,7 +1177,7 @@
   "data_note": "Mostly low-risk content (public or creative); still avoid uploading private info.",
   "source_url": "https://suno.com/pricing",
   "pricing_verified": "2026-10-14",
-  "last_checked": "2026-10-26",
+  "last_checked": "2026-10-27",
   "status": "ok",
   "fail_count": 0,
   "keywords": [
@@ -1208,7 +1208,7 @@
   "data_note": "Don't paste confidential, client, patient or student data on a personal account; use your organization's approved plan.",
   "source_url": "https://elicit.com/pricing",
   "pricing_verified": "2026-10-14",
-  "last_checked": "2026-10-26",
+  "last_checked": "2026-10-27",
   "status": "ok",
   "fail_count": 0,
   "keywords": [
@@ -1239,7 +1239,7 @@
   "data_note": "Don't paste confidential, client, patient or student data on a personal account; use your organization's approved plan.",
   "source_url": "https://consensus.app/pricing/",
   "pricing_verified": null,
-  "last_checked": "2026-10-26",
+  "last_checked": "2026-10-27",
   "status": "ok",
   "fail_count": 0,
   "keywords": [
@@ -1272,7 +1272,7 @@
   "data_note": "Don't put secrets or customer data into a prototype app.",
   "source_url": "https://lovable.dev/pricing",
   "pricing_verified": "2026-10-14",
-  "last_checked": "2026-10-26",
+  "last_checked": "2026-10-27",
   "status": "ok",
   "fail_count": 0,
   "keywords": [
@@ -1303,7 +1303,7 @@
   "data_note": "Clinical tool handling patient health information: only use under your organization's approved agreement (e.g., HIPAA BAA).",
   "source_url": "https://www.heidihealth.com/pricing",
   "pricing_verified": "2026-10-14",
-  "last_checked": "2026-10-26",
+  "last_checked": "2026-10-27",
   "status": "ok",
   "keywords": [
    "medical scribe",
@@ -1335,7 +1335,7 @@
   "data_note": "Clinical tool handling patient health information: only use under your organization's approved agreement (e.g., HIPAA BAA).",
   "source_url": "https://www.getfreed.ai/pricing",
   "pricing_verified": "2026-10-14",
-  "last_checked": "2026-10-26",
+  "last_checked": "2026-10-27",
   "status": "ok",
   "keywords": [
    "medical scribe",
@@ -1367,7 +1367,7 @@
   "data_note": "Clinical tool handling patient health information: only use under your organization's approved agreement (e.g., HIPAA BAA).",
   "source_url": "https://www.abridge.com/",
   "pricing_verified": null,
-  "last_checked": "2026-10-26",
+  "last_checked": "2026-10-27",
   "status": "ok",
   "keywords": [
    "medical scribe",
@@ -1402,7 +1402,7 @@
   "data_note": "Uploaded spreadsheets may contain sensitive data; remove personal or client info first.",
   "source_url": "https://julius.ai/pricing",
   "pricing_verified": "2026-10-14",
-  "last_checked": "2026-10-26",
+  "last_checked": "2026-10-27",
   "status": "ok",
   "keywords": [
    "spreadsheet",
@@ -1435,7 +1435,7 @@
   "data_note": "Connects to or holds personal financial data; review what accounts you link.",
   "source_url": "https://web.meetcleo.com/pricing",
   "pricing_verified": "2026-10-14",
-  "last_checked": "2026-10-26",
+  "last_checked": "2026-10-27",
   "status": "ok",
   "keywords": [
    "budget",
@@ -1467,7 +1467,7 @@
   "data_note": "Connects to or holds personal financial data; review what accounts you link.",
   "source_url": "https://www.monarch.com/pricing",
   "pricing_verified": null,
-  "last_checked": "2026-10-26",
+  "last_checked": "2026-10-27",
   "status": "ok",
   "keywords": [
    "budget",
@@ -1500,7 +1500,7 @@
   "data_note": "Client-confidential material: use only under your firm's approved account and policies.",
   "source_url": "https://www.spellbook.legal/pricing",
   "pricing_verified": "2026-10-14",
-  "last_checked": "2026-10-26",
+  "last_checked": "2026-10-27",
   "status": "ok",
   "keywords": [
    "contracts",
@@ -1532,7 +1532,7 @@
   "data_note": "Client-confidential material: use only under your firm's approved account and policies.",
   "source_url": "https://www.harvey.ai/",
   "pricing_verified": null,
-  "last_checked": "2026-10-26",
+  "last_checked": "2026-10-27",
   "status": "ok",
   "keywords": [
    "law firm",
@@ -1564,7 +1564,7 @@
   "data_note": "Client-confidential material: use only under your firm's approved account and policies.",
   "source_url": "https://legal.thomsonreuters.com/en/c/cocounsel/plans-and-pricing",
   "pricing_verified": null,
-  "last_checked": "2026-10-26",
+  "last_checked": "2026-10-27",
   "status": "ok",
   "keywords": [
    "lawyer",
